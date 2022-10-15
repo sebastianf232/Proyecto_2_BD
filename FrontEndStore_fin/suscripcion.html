@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iHealth+</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Menu</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="suscripcion.html">suscripciones</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Tipos de Suscripción</h1>
+
+        <div class="nosotros">
+            <div class="nosotros__contenido">
+                
+            </div>
+            <img class="nosotros__imagen" src="suscripcion.png" alt="imagen nosotros">
+        </div>
+
+        <form class="formulario">
+            <select class="formulario__campo">
+                <option disabled selected>-- Seleccionar Tipo de Suscripción --</option>
+                <option>1 Mes (30Q)</option>
+                <option>6 Meses (150Q)</option>
+                <option>1 Año (340Q)</option>
+            </select>
+            <select class="formulario__campo2">
+                <option disabled selected>-- Seleccionar Tipo de Pago --</option>
+                <option>Tarjeta Debito</option>
+                <option>Tarjeta Credito</option>
+            </select>
+            <input class="formulario__campo2" type="number" placeholder="Numero de tarjeta" min="1">
+            <input class="formulario__submit" type="submit" value="Pagar">
+        </form>
+    </main>
+
+    
+</body>
+</html>
